@@ -1,0 +1,154 @@
+:root {
+    --main-bg-color: #2874f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Lato', sans-serif;
+    height: 11vh;
+}
+
+nav {
+    background-color: var(--main-bg-color);
+    
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 35px;
+    margin: 15px;
+}
+
+.head ul {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+.head ul li {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    margin: 12px;
+
+}
+
+.head ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.head ul li a:hover {
+    font-weight: bolder;
+}
+
+
+.search input {
+    width: 25vw;
+    border-radius: 4px;
+    height: 27px;
+    padding: 0 12px;
+}
+
+.btn {
+    margin: 0px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button {
+    background-color: var(--main-bg-color);
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn button:hover {
+
+    height: 35px;
+    width: 85px;
+
+}
+
+.conatainer {
+    min-height: calc(100vh-12vh-11vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 29px auto;
+}
+
+.slider {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.slider img {
+    height: 61vh;
+    width: 60vw;
+    margin: 15px;
+    width: 81vw;
+}
+
+.card {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+
+.card h2 {
+    margin: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.card_imgs {
+
+    height: 43vh;
+    margin: 0px 10px;
+    display: flex;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    overflow: scroll;
+
+}
+
+.img1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 180px;
+    align-items: center;
+    margin: 0px 22px;
+}
+.heading{
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+}
+.text{
+    font-family: 'Lato', sans-serif;
+}
+
+
+.foot {
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
